@@ -22,6 +22,7 @@ allprojects {
         mavenLocal()
         mavenCentral()
         jcenter()
+        maven { url 'https://jitpack.io' }
         maven {
             url 'https://maven.google.com/'
             name 'Google'
@@ -33,9 +34,7 @@ allprojects {
         maven() {
             url 'http://oss.jfrog.org/oss-snapshot-local/'
         }
-        maven() {
-            url 'https://dl.bintray.com/kuaifan/maven/'
-        }
+
     }
 }
 
